@@ -11,40 +11,40 @@ function report()
 	var soUBAmount = new Array();
 
 	// Load Data from file cabinet
-	var accfileTransferIn 						= nlapiLoadFile(441134);
-	var accountfileTransferIn 					= accfileTransferIn.getValue();
-	var accountarrayTransferIn 					= accountfileTransferIn.split(",");
-	soNumber 									= soNumber.concat(accountarrayTransferIn);
+	var accfileTransferIn 			= nlapiLoadFile(441134);
+	var accountfileTransferIn 		= accfileTransferIn.getValue();
+	var accountarrayTransferIn 		= accountfileTransferIn.split(",");
+	soNumber 				= soNumber.concat(accountarrayTransferIn);
 	
-	var accfileTransferIn 						= nlapiLoadFile(441135);
-	var accountfileTransferIn 					= accfileTransferIn.getValue();
-	var accountarrayTransferIn 					= accountfileTransferIn.split(",");
-	soStatus 									= soStatus.concat(accountarrayTransferIn);
+	var accfileTransferIn 			= nlapiLoadFile(441135);
+	var accountfileTransferIn 		= accfileTransferIn.getValue();
+	var accountarrayTransferIn 		= accountfileTransferIn.split(",");
+	soStatus 				= soStatus.concat(accountarrayTransferIn);
 	
-	var accfileTransferIn 						= nlapiLoadFile(441136);
-	var accountfileTransferIn 					= accfileTransferIn.getValue();
-	var accountarrayTransferIn 					= accountfileTransferIn.split(",");
-	soCDate 									= soCDate.concat(accountarrayTransferIn);
+	var accfileTransferIn 			= nlapiLoadFile(441136);
+	var accountfileTransferIn 		= accfileTransferIn.getValue();
+	var accountarrayTransferIn 		= accountfileTransferIn.split(",");
+	soCDate 				= soCDate.concat(accountarrayTransferIn);
 	
-	var accfileTransferIn 						= nlapiLoadFile(441137);
-	var accountfileTransferIn 					= accfileTransferIn.getValue();
-	var accountarrayTransferIn 					= accountfileTransferIn.split(",");
-	soDDate 									= soDDate.concat(accountarrayTransferIn);
+	var accfileTransferIn 			= nlapiLoadFile(441137);
+	var accountfileTransferIn 		= accfileTransferIn.getValue();
+	var accountarrayTransferIn 		= accountfileTransferIn.split(",");
+	soDDate 				= soDDate.concat(accountarrayTransferIn);
 	
-	var accfileTransferIn 						= nlapiLoadFile(441138);
-	var accountfileTransferIn 					= accfileTransferIn.getValue();
-	var accountarrayTransferIn 					= accountfileTransferIn.split(",");
-	soPayment 									= soPayment.concat(accountarrayTransferIn);
+	var accfileTransferIn 			= nlapiLoadFile(441138);
+	var accountfileTransferIn 		= accfileTransferIn.getValue();
+	var accountarrayTransferIn 		= accountfileTransferIn.split(",");
+	soPayment 				= soPayment.concat(accountarrayTransferIn);
 	
-	var accfileTransferIn 						= nlapiLoadFile(441139);
-	var accountfileTransferIn 					= accfileTransferIn.getValue();
-	var accountarrayTransferIn 					= accountfileTransferIn.split(",");
-	soAmount 									= soAmount.concat(accountarrayTransferIn);
+	var accfileTransferIn 			= nlapiLoadFile(441139);
+	var accountfileTransferIn 		= accfileTransferIn.getValue();
+	var accountarrayTransferIn 		= accountfileTransferIn.split(",");
+	soAmount 				= soAmount.concat(accountarrayTransferIn);
 	
-	var accfileTransferIn 						= nlapiLoadFile(441140);
-	var accountfileTransferIn 					= accfileTransferIn.getValue();
-	var accountarrayTransferIn 					= accountfileTransferIn.split(",");
-	soUBAmount 									= soUBAmount.concat(accountarrayTransferIn);
+	var accfileTransferIn 			= nlapiLoadFile(441140);
+	var accountfileTransferIn 		= accfileTransferIn.getValue();
+	var accountarrayTransferIn 		= accountfileTransferIn.split(",");
+	soUBAmount 				= soUBAmount.concat(accountarrayTransferIn);
 			
 	// Start HTML
 	html  = '<html>';
