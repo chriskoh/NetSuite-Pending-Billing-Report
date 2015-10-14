@@ -112,7 +112,7 @@ function report()
 			// Calculate difference between SO / IF date
 			var b = new Date(soDDate[x]);
 			var a = new Date(soCDate[x]);
-		    var msDay = 60*60*24*1000;
+			var msDay = 60*60*24*1000;
 			var diff = Math.floor((b - a) / msDay);
 				
 			html += '<tr>' +
