@@ -1,4 +1,4 @@
-function function1() 
+function search() 
 {
 	// Set initial search date
 	var setStartDate = new Date(2015,0,1);
