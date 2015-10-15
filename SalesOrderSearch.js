@@ -140,14 +140,3 @@ function search()
 	statusrefFile.setFolder(363770);
 	nlapiSubmitFile(statusrefFile);
 }
-
-/*-------------------------------------------------------------------------------------------------
-	Function: print()
-	Purpose:  Execution logs
--------------------------------------------------------------------------------------------------*/
-function print(name, value)
-{	
-	var context        = nlapiGetContext();
-	var usageRemaining = context.getRemainingUsage();
-	nlapiLogExecution ('DEBUG', name + ' | ' + usageRemaining, value);
-}
